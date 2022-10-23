@@ -5,40 +5,41 @@
 }
 body {
   background-color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 header {
-  background-color: grey;
-  font: bold italic;
-  font-size: larger;
+  display: flex;
+  flex-wrap: wrap;
 }
 header h1 {
   justify-content: flex-start;
   font-size: 40px;
 }
 header nav {
-  display: flexbox;
-  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
 }
 header nav ul {
-  align-items: flex-end;
+  list-style-type: none;
 }
 header nav ul li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 100px;
 }
 #About-me {
-  display: flexbox;
+  display: flex;
 }
 #work {
-  display: flexbox;
+  display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.section {
+/* .section {
   max-height: 500px;
   max-width: 500px;
-}
-.section img {
+} */
+.card img {
   height: 50px;
   max-width: 50px;
 }
