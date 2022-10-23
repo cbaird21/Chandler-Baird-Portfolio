@@ -20,4 +20,6 @@ header h1 {
 }
 header nav {
   display: inline-block;
+  list-style-type: none;
+
 }
