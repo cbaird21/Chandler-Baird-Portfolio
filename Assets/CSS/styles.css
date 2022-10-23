@@ -24,9 +24,12 @@ header nav ul li {
   margin-left: 25px;
 }
 .section {
+  max-height: 500px;
+  max-width: 500px;
 }
 .section img {
-  max-height: 200px;
+  height: 50px;
+  max-width: 50px;
 }
 .section h2 {
   margin-bottom: 20px;
