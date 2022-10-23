@@ -21,5 +21,8 @@ header h1 {
 header nav {
   display: inline-block;
   list-style-type: none;
-
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
 }
