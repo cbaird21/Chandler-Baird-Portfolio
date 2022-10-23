@@ -2,7 +2,7 @@
 
 ## User Story
 
-aAs an employer I want to view a potential employee's deployed portfolio of work samples so that I can review samples of their work and asses whether they're a good canidate for an open position.
+As an employer I want to view a potential employee's deployed portfolio of work samples so that I can review samples of their work and asses whether they're a good canidate for an open position.
 
 ## Acceptance Criteria
 
@@ -25,3 +25,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following animation shows the web applicationsapperance and functionality
 
 ![](02-advanced-css-homework-demo.gif)
+
+## Credits
+
