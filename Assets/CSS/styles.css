@@ -7,6 +7,9 @@ body {
   background-color: white;
 }
 header {
+  background-color: grey;
+  font: bold italic;
+  font-size: larger;
 }
 header h1 {
   justify-content: flex-start;
