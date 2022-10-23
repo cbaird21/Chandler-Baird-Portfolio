@@ -15,14 +15,36 @@ header {
   color: blue;
 }
 header h1 {
-  display: inline-block;
+  justify-content: flex-start;
   font-size: 40px;
 }
 header nav {
-  display: inline-block;
+  justify-content: flex-end;
   list-style-type: none;
+}
+header nav ul {
+  align-items: flex-end;
 }
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
+}
+.section {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.section img {
+  max-height: 200px;
+}
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+.section h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
 }
