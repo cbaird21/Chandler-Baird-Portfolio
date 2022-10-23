@@ -10,6 +10,9 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+main{
+  display: flex;
+}
 header h1 {
   justify-content: flex-start;
   font-size: 40px;
