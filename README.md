@@ -27,4 +27,3 @@ The following animation shows the web applicationsapperance and functionality
 ![](02-advanced-css-homework-demo.gif)
 
 ## Credits
-
