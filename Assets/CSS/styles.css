@@ -4,7 +4,8 @@
 body {
   background-color: white;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
 }
 header {
   display: flex;
