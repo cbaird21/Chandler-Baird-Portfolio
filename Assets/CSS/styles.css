@@ -47,9 +47,14 @@ header nav ul li {
 }
 .section {
   display: flex;
-}
-.contactme {
+  justify-content: flex-start;
+  align-items: flex-end;
   list-style-type: none;
+}
+#footer {
+  /* list-style-type: none; */
+  float: left;
+  width: 100%;
 }
 img {
   height: auto;
