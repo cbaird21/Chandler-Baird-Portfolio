@@ -31,18 +31,26 @@ header nav ul li {
   display: inline-block;
   margin-left: 100px;
 }
-#About-me {
+#Aboutme {
   display: flex;
+  align-items: ;
 }
 #work {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-/* .section {
-  max-height: 500px;
-  max-width: 500px;
-} */
+#contactme {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.section {
+  display: flex;
+}
+.contactme {
+  list-style-type: none;
+}
 img {
   height: auto;
   max-width: 50%;
