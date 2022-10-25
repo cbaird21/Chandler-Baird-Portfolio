@@ -37,6 +37,10 @@ header nav ul li {
   display: inline-block;
   margin-left: 100px;
 }
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
 #Aboutme {
   display: flex;
   align-items: ;
@@ -66,8 +70,9 @@ header nav ul li {
   width: 100%;
 }
 img {
-  height: 50%;
-  max-width: 50%;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 .section h2 {
   margin-bottom: 20px;
