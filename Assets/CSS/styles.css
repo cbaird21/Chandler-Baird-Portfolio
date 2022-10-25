@@ -1,13 +1,20 @@
 * {
   box-sizing: border-box;
 }
+:root {
+  background-color: rgb(140, 76, 200);
+  --fav: rgb(59, 59, 238);
+  --nature: rgb(112, 192, 112);
+}
 body {
   background-color: white;
   display: flex;
   flex-direction: column;
+  align-content: flex-start;
   /* flex-wrap: wrap; */
 }
 header {
+  background-color: var(--nature);
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -16,7 +23,7 @@ header {
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 header h1 {
@@ -37,10 +44,7 @@ header nav ul li {
   display: inline-block;
   margin-left: 100px;
 }
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
+
 #Aboutme {
   display: flex;
   align-items: ;
@@ -59,6 +63,7 @@ a {
   font-size: smaller;
 }
 .section {
+  margin: 10% 20% 0% 10%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
