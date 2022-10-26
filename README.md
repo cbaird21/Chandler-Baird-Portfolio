@@ -23,5 +23,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Mock-Up
 
 The following animation shows the web applicationsapperance and functionality
-
-[def]: 02-advanced-css-homework-demo.gif
+![](Assets/images/02-advanced-css-homework-demo.gif)
