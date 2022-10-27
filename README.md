@@ -1,4 +1,4 @@
-# module-2-challenge
+# Chandler Baird Portfolio
 
 ## User Story
 
