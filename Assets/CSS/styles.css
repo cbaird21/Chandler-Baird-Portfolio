@@ -12,19 +12,21 @@ body {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  color: white;
   min-height: 100vh;
   position: relative;
-  background: url();
+  background: url(../images/istockphoto-1303237166-170667a.jpg);
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 header {
-  background-color: var(--nature);
+  background-color: purple;
   display: flex;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: center;
   min-width: 100%;
   flex-wrap: wrap;
+  height: 100px;
 }
 main {
   display: flex;
@@ -54,11 +56,17 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
+h2 strong {
+  display: inline-block;
+  float: right;
+  font-size: 75%;
+  opacity: 0.75;
+}
 #aboutimg {
   max-height: 11%;
   max-width: 11%;
   border-radius: 3%;
-  margin-top:2%;
+  margin-top: 2%;
 }
 
 #preworkimg {
@@ -90,6 +98,9 @@ header nav ul li {
   justify-content: space-between;
   width: 80%;
 }
+.nav-a {
+  color: white;
+}
 .comingsoon {
   height: 200px;
   width: 200px;
@@ -97,7 +108,7 @@ header nav ul li {
 .card-box {
   margin: 10%;
   display: grid;
-  grid-template-columns: 60% 77% 40%;
+  grid-template-columns: 50% 50% 50%;
   justify-items: space-between;
   padding: 10px;
   /* margin: 25%;
@@ -128,7 +139,7 @@ header nav ul li {
   align-items: center;
   justify-content: flex-start;
   list-style-type: none;
-  padding: 2% 
+  padding: 2%;
   width: 100%;
 }
 .section h2 {
@@ -139,7 +150,7 @@ header nav ul li {
   font-size: 20px;
   position: relative;
   top: 230px;
-  left: 40px;
+  left: 147px;
 }
 .section p {
   margin-left: 10%;
