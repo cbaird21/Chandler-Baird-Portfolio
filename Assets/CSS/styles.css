@@ -106,13 +106,15 @@ h2 strong {
   width: 200px;
 }
 .card-box {
-  margin: 10%;
-  display: grid;
-  grid-template-columns: 50% 50% 50%;
-  justify-items: space-between;
-  padding: 10px;
-  /* margin: 25%;
+  margin: 0;
+  /* display: grid;
+  grid-template-columns: 50% 50% 50%; */
+  justify-content: flex-start;
   display: flex;
+  height: fit-content;
+  width: fit-content;
+  flex-wrap: wrap;
+  /* margin: 25%;
   flex-direction: reverse row;
   flex-wrap: wrap; */
 }
