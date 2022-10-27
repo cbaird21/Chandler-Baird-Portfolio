@@ -24,3 +24,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web applicationsapperance and functionality
 ![](Assets/images/02-advanced-css-homework-demo.gif)
+
+## Deployed Project
+
+https://cbaird21.github.io/Chandler-Baird-Portfolio/
