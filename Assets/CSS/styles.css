@@ -96,7 +96,7 @@ h2 strong {
   list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 80%;
 }
 .nav-a {
