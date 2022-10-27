@@ -14,6 +14,9 @@ body {
   align-content: flex-start;
   min-height: 100vh;
   position: relative;
+  background: url();
+  background-size: cover;
+  background-attachment:fixed;
 }
 header {
   background-color: var(--nature);
@@ -51,27 +54,20 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-img {
-  display: block;
-  margin: 10px auto;
-  max-width: 300px;
-}
 #aboutimg {
-  max-height: 30%;
-  max-width: 30%;
+  max-height: 11%;
+  max-width: 11%;
   border-radius: 3%;
+  margin-top:2%;
 }
 
 #preworkimg {
+  display: flex;
+  flex-direction: column;
   border-radius: 3%;
   margin: 3%;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-height: 30%;
-  max-width: 30%;
-  background-color: var(--nature);
-  border-color: var(--nature);
+  max-height: 326px;
+  max-width: 370px;
 }
 
 #footer {
@@ -94,21 +90,37 @@ img {
   justify-content: space-between;
   width: 80%;
 }
-.prework {
-  margin-left: 10%;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  width: 50%;
+.comingsoon {
+  height: 200px;
+  width: 200px;
 }
-.prework:hover {
+.card-box {
+  margin: 10%;
+  display: grid;
+  grid-template-columns: 60% 77% 40%;
+  justify-items: space-between;
+  padding: 10px;
+  /* margin: 25%;
+  display: flex;
+  flex-direction: reverse row;
+  flex-wrap: wrap; */
+}
+.card-box:hover {
   cursor: grab;
   transform: rotate(30%);
 }
-.prework1 {
-  position: absolute;
-  bottom: 95%;
-  left: 4%;
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 6%;
+  padding: 6%;
+  height: fit-content;
+  width: fit-content;
+}
+.card a {
+  max-height: 300px;
+  max-width: 300px;
 }
 .section {
   display: flex;
@@ -116,15 +128,18 @@ img {
   align-items: center;
   justify-content: flex-start;
   list-style-type: none;
-  padding: 2% 10% 5% 5%;
+  padding: 2% 
   width: 100%;
 }
 .section h2 {
   font-size: 36px;
   border-right: double;
 }
-.section h3 {
+.card h3 {
   font-size: 20px;
+  position: relative;
+  top: 230px;
+  left: 40px;
 }
 .section p {
   margin-left: 10%;
