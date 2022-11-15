@@ -6,10 +6,18 @@
 /* created outline for body content to all be formated the same */
 body {
   min-height: 100vh;
+  background: url("../images/galaxy-bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+  font-size: larger;
+}
+
+a {
+  color: aliceblue;
 }
 /* controls header  */
 header {
-  background-color: grey;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -36,6 +44,7 @@ header h1 {
   align-items: center;
   display: inline-block;
   margin-left: 25px;
+  color: aliceblue;
 }
 /* tells subtitle what to do and where to go */
 h2 strong {
@@ -98,6 +107,7 @@ h2 strong {
   width: 80%;
   height: 80%;
   min-width: 300px;
+  font-style: none;
 }
 #mostRecent a img {
   height: 100%;
@@ -140,7 +150,6 @@ h2 strong {
   /* justify-content: space-between; */
 
   /* top: auto; */
-  background-color: grey;
 }
 #footer h2 {
   display: flex;
