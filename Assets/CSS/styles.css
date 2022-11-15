@@ -5,53 +5,34 @@
 }
 /* created outline for body content to all be formated the same */
 body {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-start;
-  color: white;
   min-height: 100vh;
-  position: relative;
-  background: url(../images/istockphoto-1303237166-170667a.jpg);
-  background-size: cover;
-  background-attachment: fixed;
 }
 /* controls header  */
 header {
-  background-color: purple;
+  background-color: grey;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  min-width: 100%;
-  flex-wrap: wrap;
-  height: 100px;
-}
-/* main specifically addresses the part of the body element */
-main {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
+  height: 200px;
 }
 /* tells me where in the header the name will go */
 header h1 {
-  display: inline-block;
-  justify-content: flex-start;
-  font-size: 40px;
-  align-items: center;
+  margin-left: 2%;
+  padding: 10px;
 }
 /* tells me where in the header my nav bar will go */
-header nav {
+.navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-left: 53%;
 }
-header nav ul {
+.navbar ul {
   list-style-type: none;
   justify-content: center;
   align-items: flex-end;
 }
-header nav ul li {
+.navbar ul li {
   align-items: center;
   display: inline-block;
   margin-left: 25px;
@@ -69,95 +50,112 @@ h2 strong {
   border-radius: 3%;
   margin-top: 2%;
 }
-/* tells me about my prework image being controlled differently within the work class */
-#preworkimg {
-  display: flex;
-  flex-direction: column;
-  border-radius: 3%;
-  margin: 3%;
-  max-height: 326px;
-  max-width: 370px;
-}
-/* controls footer  */
-#footer {
-  position: flex;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  top: auto;
-  background-color: grey;
-}
-/* tells nav in the footer how to align its content */
-#nav-links {
-  font-size: smaller;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 80%;
-}
-.nav-a {
-  color: white;
-}
-/* coming soon photo controlls by pixels */
-.comingsoon {
-  height: 200px;
-  width: 200px;
-}
+
 /* what all the cards of work experiences is bodied */
 .card-box {
-  margin: 0;
-  justify-content: flex-start;
+  padding: 10px;
+  justify-content: space-evenly;
   display: flex;
-  height: fit-content;
-  width: fit-content;
+  max-width: 60%;
   flex-wrap: wrap;
 }
-/* what I want the curser to do when it hovers over section in work images */
-.card-box:hover {
-  cursor: grab;
-  transform: rotate(30%);
-}
+
 .card {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  margin: 6%;
-  padding: 6%;
-  height: fit-content;
-  width: fit-content;
+  margin: 5px;
 }
-.card a {
-  max-height: 300px;
-  max-width: 300px;
+.card h2 {
+  display: flex;
+  max-height: fit-content;
+  max-width: 200px;
+  min-width: 200px;
+  padding: 5px;
+  margin: 0;
+  align-content: center;
+  justify-content: center;
+}
+/* .card img:hover {
+  box-shadow: inset 200px 0 0 0 black;
+  border-style: solid;
+} */
+.card img {
+  width: 300px;
+  height: 200px;
+}
+#mostRecent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+#mostRecent a {
+  width: 80%;
+  height: 80%;
+  min-width: 300px;
+}
+#mostRecent a img {
+  height: 100%;
+  width: 100%;
+  min-width: 270px;
 }
 /* all section content to be structured this way */
 .section {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  list-style-type: none;
+  align-items: center;
+
   padding: 2%;
-  width: 100%;
 }
 /* section h2's to be formated this way */
 .section h2 {
-  font-size: 36px;
-  border-right: double;
-}
-.card h3 {
-  font-size: 20px;
-  position: relative;
-  top: 230px;
-  left: 147px;
+  display: flex;
+  padding: 2% 4% 2% 10%;
+  margin-right: 5%;
+  max-width: 15%;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
 }
 /* paragrahs to have this margin  */
 .section p {
-  margin-left: 10%;
+  margin-left: 5%;
+  max-width: 50%;
+  padding: 10px;
+}
+/* controls footer  */
+#footer {
+  display: flex;
+  /* bottom: 0; */
+  flex-wrap: wrap;
+  min-width: 100%;
+  max-height: fit-content;
+  align-items: center;
+  /* justify-content: space-between; */
+
+  /* top: auto; */
+  background-color: grey;
+}
+#footer h2 {
+  display: flex;
+  /* padding: 2% 4% 2% 4%%; */
+  margin-right: 5%;
+  max-width: 15%;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+}
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 60%;
+  justify-content: space-evenly;
 }
 /* how to make my screen responsive */
 @media screen and (min-width: 768px) {
